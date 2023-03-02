@@ -18,6 +18,9 @@ import {
   FRAMEWORKS,
   FRAMEWORKS_DEFAULT,
   FRAMEWORKS_TYPES,
+  LARAVEL,
+  REACT,
+  REACT_NATIVE,
   REACT_NATIVE_BUNDLE_ID,
   REPOSITORIES,
 } from "../tools/framework"
@@ -115,12 +118,11 @@ export default {
     }))
     framework = respBase.baseName
     // #endregion Framework
-
-    const isRN = framework === FRAMEWORKS[1]
-    const isReact = framework === FRAMEWORKS[0]
-    const isPHP = framework === FRAMEWORKS[2]
+    const isRN = framework === REACT_NATIVE
+    const isReact = framework === REACT
+    const isPHP = framework === LARAVEL
     // const isJava= framework === FRAMEWORKS[3]
-    const hasNodeModule = [FRAMEWORKS[0], FRAMEWORKS[1]].includes(framework)
+    const hasNodeModule = [REACT, REACT_NATIVE].includes(framework)
 
     // GIT path
     let gitRepo = ""
