@@ -1,0 +1,17 @@
+# OSX
+#
+.idea
+.DS_Store
+npm-debug.log
+npm-debug.log*
+yarn-error.log
+lerna-debug.log
+node_modules
+.vscode/*
+package-lock.json
+
+# TS build
+/build
+coverage
+
+yarn.lock
