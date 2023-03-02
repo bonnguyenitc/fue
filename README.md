@@ -1,9 +1,5 @@
 # Fue CLI
 
-- CLI giúp kéo base source đúng với ngôn ngữ cần dùng
-- Source sẽ pull trực tiếp từ repo về
-- Generate code
-
 ## Create new base
 
 First time:
@@ -14,21 +10,16 @@ First time:
 After:
 ` fue new / fue-cli new`
 
-<p align="center"><img src="https://gitlab-new.fue.jp/fue-project-base/cli/fue-cli/-/raw/main/dist/demo.png" alt="demo"></p>
-
 ## For development
 
 ```
-git clone https://gitlab-new.fue.jp/fue-project-base/cli/fue-cli.git
+git clone https://github.com/bonnguyenitc/fue.git
 cd fue-cli
 yarn
 yarn link
 ```
 
 ## Generate code
-
-Ở mỗi source base có một folder `templates` sẽ chứa code ejs để gen code,
-tên của folder là type file cần generate (model, component, module,...)
 
 ### React Native
 

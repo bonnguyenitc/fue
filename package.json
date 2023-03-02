@@ -8,8 +8,8 @@
   },
   "preferGlobal": true,
   "license": "MIT",
-  "repository": "fue-project-base/cli/fue-cli",
-  "homepage": "https://gitlab-new.fue.jp/fue-project-base/cli/fue-cli",
+  "repository": "bonnguyenitc/fue",
+  "homepage": "https://github.com/bonnguyenitc/fue",
   "files": [
     "build",
     "bin",
@@ -18,7 +18,7 @@
   "author": {
     "name": "bonnguyenitc",
     "email": "bonnguyenitc@gmail.com",
-    "url": "https://gitlab-new.fue.jp/fue-project-base/cli/fue-cli"
+    "url": "https://github.com/bonnguyenitc/fue"
   },
   "scripts": {
     "compile": "tsc -p .",
