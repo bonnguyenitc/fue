@@ -125,9 +125,14 @@ export default {
     const hasNodeModule = [REACT, REACT_NATIVE].includes(framework)
 
     // GIT path
-    let gitRepo = ""
+    const gitRepo = REPOSITORIES[framework]
 
-    gitRepo = REPOSITORIES[framework]
+    if (!gitRepo) {
+      const gitNoteExits = `Error: repository of ${framework} not exists.`
+      p()
+      p(yellow(gitNoteExits))
+      process.exit(1)
+    }
 
     // #region Project Name
     // retrieve project name from toolbox
