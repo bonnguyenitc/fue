@@ -1,5 +1,7 @@
 # Fue CLI
 
+A CLI tool for generating code for React Native is a command-line interface tool that automates the process of creating boilerplate code for React Native projects. It provides a streamlined way to generate code for common use cases, such as creating components, screens, and module.
+
 ## Create new base
 
 First time:
