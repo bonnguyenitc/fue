@@ -1,6 +1,6 @@
 {
   "name": "fue-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FUE CLI is a cli that helps you create base for new project",
   "bin": {
     "fue": "bin/fue",
