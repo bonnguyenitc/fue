@@ -24,10 +24,10 @@ module.exports = {
     command("new             ", "Creates a new base source", ["fue new"])
     p()
     command("generate (g)    ", "Generates components and other app features", [
-      "ignite generate <generator><form,...>> <name-name-name> --reactnative <--module>",
-      "ignite generate <generator> --react",
-      "ignite generate <generator> --laravel",
-      "ignite generate <generator> --spring",
+      "fue generate <generator><form,...>> <name-name-name> --reactnative <--module>",
+      "fue generate <generator> --react",
+      "fue generate <generator> --laravel",
+      "fue generate <generator> --spring",
     ])
   },
 }

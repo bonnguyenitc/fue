@@ -103,7 +103,7 @@ export default {
     }
 
     // log raw parameters for debugging
-    log(`ignite command: ${parameters.argv.join(" ")}`)
+    log(`fue command: ${parameters.argv.join(" ")}`)
     // #endregion
 
     // #region Framework

@@ -46,7 +46,7 @@ async function generate(toolbox: GluegunToolbox) {
       `Note that you don't need to add ${pascalGenerator} to the end of the name -- we'll do it for you!`,
     )
     pascalName = pascalName.slice(0, -1 * pascalGenerator.length)
-    command(`ignite generate ${generator} ${pascalName}`)
+    command(`fue generate ${generator} ${pascalName}`)
   }
 
   // get framework current

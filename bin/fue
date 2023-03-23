@@ -2,7 +2,7 @@
 
 /* tslint:disable */
 
-// speed up `ignite-cli --version` et al
+// speed up `fue-cli --version` et al
 if (["v", "version", "-v", "--v", "-version", "--version"].includes(process.argv[2])) {
   var contents = require("fs").readFileSync(__dirname + "/../package.json")
   var package = JSON.parse(contents)
@@ -24,5 +24,5 @@ if (devMode && !wantsCompiled) {
   sourceDir = __dirname + "/../src"
 }
 
-// kick off ignite!
+// kick off fue!
 require(sourceDir + "/cli").run(process.argv)
